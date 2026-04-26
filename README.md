@@ -42,6 +42,8 @@ $$DI = \frac{Pr(Y=1 | Group=Unprivileged)}{Pr(Y=1 | Group=Privileged)}$$
 ### The 80% Threshold
 Following the **Four-Fifths Rule**, any model with a DI ratio below **0.80** is flagged for "Immediate Corrective Action."
 
+![Fairness Audit Results](fairness_audit_result.png)
+
 ---
 
 # Regulatory Mapping & Compliance
@@ -52,6 +54,14 @@ Following the **Four-Fifths Rule**, any model with a DI ratio below **0.80** is 
 | **POJK 1/2026** | Mandates IT Risk Management for FSTIs. | Continuous DI Ratio monitoring & reporting. |
 | **SE Kominfo 9/2023** | Principles of AI Inclusivity. | Auditing for Regional/Geographic bias. |
 | **Pancasila Sila 5** | Social Justice for all Indonesians. | Ensuring inclusion for the Archipelago. |
+
+---
+
+# Product Roadmap (V2.0)
+Future iterations of this framework will include:
+* **Automated PDF Reporting:** Integration with `fpdf` to generate compliance-ready audit reports containing fairness verdicts and visualizations.
+* **Dynamic Data Ingestion:** A robust data pipeline to ingest, clean, and analyze real-world loan data via CSV/SQL integration.
+* **Expanded Metrics:** Incorporating Equalized Odds and Statistical Parity Difference for deeper intersectional bias detection.
 
 ---
 
