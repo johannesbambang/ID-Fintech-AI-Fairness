@@ -42,8 +42,6 @@ $$DI = \frac{Pr(Y=1 | Group=Unprivileged)}{Pr(Y=1 | Group=Privileged)}$$
 ### The 80% Threshold
 Following the **Four-Fifths Rule**, any model with a DI ratio below **0.80** is flagged for "Immediate Corrective Action."
 
-![Fairness Audit Results](fairness_audit_result.png)
-
 ---
 
 # Regulatory Mapping & Compliance
@@ -62,6 +60,7 @@ Future iterations of this framework will include:
 * **Automated PDF Reporting:** Integration with `fpdf` to generate compliance-ready audit reports containing fairness verdicts and visualizations.
 * **Dynamic Data Ingestion:** A robust data pipeline to ingest, clean, and analyze real-world loan data via CSV/SQL integration.
 * **Expanded Metrics:** Incorporating Equalized Odds and Statistical Parity Difference for deeper intersectional bias detection.
+<img width="800" height="600" alt="fairness_audit_result" src="https://github.com/user-attachments/assets/7c2d1b92-f859-4705-b867-c5d55b733108" />
 
 ---
 
